@@ -1,0 +1,41 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Мессенджер",
+  "@appTitle": {
+    "description": "Название приложения"
+  },
+  "welcome": "Добро пожаловать",
+  "@welcome": {
+    "description": "Приветственное сообщение"
+  },
+  "login": "Войти",
+  "@login": {
+    "description": "Кнопка входа"
+  },
+  "register": "Регистрация",
+  "@register": {
+    "description": "Кнопка регистрации"
+  },
+  "username": "Имя пользователя",
+  "@username": {
+    "description": "Поле имени пользователя"
+  },
+  "password": "Пароль",
+  "@password": {
+    "description": "Поле пароля"
+  },
+  "loading": "Загрузка...",
+  "@loading": {
+    "description": "Текст загрузки"
+  },
+  "error": "Ошибка",
+  "@error": {
+    "description": "Заголовок ошибки"
+  },
+  "retry": "Повторить",
+  "@retry": {
+    "description": "Кнопка повтора"
+  }
+}
+
+

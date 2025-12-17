@@ -1,0 +1,80 @@
+name: messenger
+description: A secure messenger application with E2EE support
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Socket.IO Client
+  socket_io_client: ^2.0.3+1
+  
+  # Secure Storage
+  flutter_secure_storage: ^9.0.0
+  
+  # Encryption
+  encrypt: ^5.0.3
+  pointycastle: ^3.7.3
+  
+  # UI & Design
+  google_fonts: ^6.1.0
+  animate_do: ^3.3.4
+  flutter_colorpicker: ^1.1.0
+  cached_network_image: ^3.3.0
+  
+  # Image Picker
+  image_picker: ^1.0.4
+  
+  # Localization
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+  
+  # HTTP Client
+  http: ^1.1.2
+  
+  # Utilities
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  flutter_cache_manager: ^3.3.1
+  
+  # Emoji Picker
+  emoji_picker_flutter: ^2.0.0
+  
+  # SVG Support
+  flutter_svg: ^2.2.3
+  
+  # Contacts
+  flutter_contacts: ^1.1.7
+  
+  # Notifications
+  flutter_local_notifications: ^17.2.2
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/icon.png
+  
+  generate: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/icon.png"
